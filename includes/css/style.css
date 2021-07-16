@@ -1,0 +1,311 @@
+@font-face{font-family:custom0;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-Thin.otf);}
+
+@font-face{font-family:custom1;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-Regular.otf);}
+
+@font-face{font-family:custom2;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-Bold.otf);}
+
+@font-face{font-family:custom3;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-Light.otf);}
+
+@font-face{font-family:custom4;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-ExLight.otf);}
+
+@font-face{font-family:custom5;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-BoldIt.otf);}
+
+@font-face{font-family:custom6;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-ThinIt.otf);}
+
+@font-face{font-family:custom7;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-SemiBold.otf);}
+
+@font-face{font-family:custom8;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-Black.otf);}
+
+body{background-color:#242424;}
+
+
+
+
+
+
+
+
+/*Small Size Styles*/
+.navbar{background-color:#cccccc;position:fixed;width:100%;z-index:9999;font-size:1.4em;}
+
+.name{font-family:custom7;color:#ffffff;font-size:3em;line-height:1;}
+
+.job-title{font-family:custom1;color:#ffffff;font-size:2em;line-height:.95;}
+
+.slogan{font-family:custom0;color:#ffffff;font-size:1.35em;line-height:.65;}
+
+.mockup-container{color:#ffffff;padding:10em 2em;}
+
+.proto-persona-container{color:#ffffff;padding:10em 2em;}
+
+.affinity-diagram-sorted-container{color:#ffffff;padding:10em 2em;}
+
+.affinity-diagram-unsorted-container{color:#ffffff;padding:10em 2em;}
+
+.sorted-cards-container{color:#ffffff;padding:10em 2em;}
+
+.unsorted-cards-container{color:#ffffff;padding:10em 2em;}
+
+.contact-btn{background-color:#0e74bc;}
+
+.text-info{color:#0e74bc !important;}
+
+.information-text{font-family:custom1;font-size:1.6em;}
+
+.secondary-heading{font-family:custom7;font-size:1.9em;margin-top:25px;}
+
+.main-footer{background-color:#cccccc !important;color:#000000 !important;font-family:custom1;text-align:center;font-size:1.1em;padding:30px;position:relative;bottom:-35px;}
+
+.desktop-mockup-img{width:100%;height:auto;}
+
+.mobile-mockup-img{width:80%;height:auto;}
+
+/*Medium Size Styles*/
+@media (min-width:576px){
+	
+.navbar{font-size:1.4em;}
+
+.name{font-size:3.8em;line-height:1;}
+
+.job-title{font-size:2.55em;line-height:1;}
+
+.slogan{font-size:1.7em;line-height:1;}
+
+.mockup-container{padding:10em 4em;}
+
+.proto-persona-container{padding:10em 4em;}
+
+.affinity-diagram-sorted-container{padding:10em 0;}
+
+.affinity-diagram-unsorted-container{padding:10em 0;}
+
+.sorted-cards-container{padding:10em 4em;}
+
+.unsorted-cards-container{padding:10em 4em;}
+
+.information-text{font-size:1.9em;}
+
+.secondary-heading{font-size:2.5em;margin-top:25px;}
+
+.main-footer{font-size:1.4em;}
+	
+.desktop-mockup-img{width:600px;}
+
+.mobile-mockup-img{width:355px;}		
+	
+
+
+	
+}
+
+
+/*Large Size Styles*/
+@media (min-width:768px){
+	
+.navbar{font-size:1.4em;}
+
+.name{font-size:4em;line-height:1;}
+
+.job-title{font-size:2.7em;line-height:1;}
+
+.slogan{font-size:1.8em;line-height:1;}
+
+.mockup-container{padding:10em 4em;}
+
+.proto-persona-container{padding:10em 4em;}
+
+.affinity-diagram-sorted-container{padding:10em 0;}
+
+.affinity-diagram-unsorted-container{padding:10em 0;}
+
+.sorted-cards-container{padding:10em 4em;}
+
+.unsorted-cards-container{padding:10em 4em;}
+
+.information-text{font-size:1.9em;}
+
+.secondary-heading{font-size:2.5em;margin-top:25px;}
+
+.main-footer{font-size:1.4em;}
+	
+.desktop-mockup-img{width:600px;}
+
+.mobile-mockup-img{width:355px;}			
+
+
+
+	
+
+	
+}
+
+
+
+
+/*XL Styles*/
+@media (min-width:992px){
+	
+.navbar{font-size:1.4em;}
+
+.name{font-size:4.7em;line-height:1;}
+
+.job-title{font-size:3.18em;line-height:1;}
+
+.slogan{font-size:2.1em;line-height:1;}
+
+.mockup-container{padding:10em 4em;}
+
+.proto-persona-container{padding:10em 4em;}
+
+.affinity-diagram-sorted-container{padding:10em 0;}
+
+.affinity-diagram-unsorted-container{padding:10em 0;}
+
+.sorted-cards-container{padding:10em 4em;}
+
+.unsorted-cards-container{padding:10em 4em;}
+
+.information-text{font-size:1.9em;}
+
+.secondary-heading{font-size:2.5em;margin-top:25px;}
+
+.main-footer{font-size:1.4em;}
+	
+.desktop-mockup-img{width:600px;}
+
+.mobile-mockup-img{width:355px;}	
+
+
+	
+	
+}
+
+
+
+/*XXL Styles*/
+@media (min-width:1200px){
+	
+.navbar{font-size:1.4em;}
+
+.name{font-size:5.2em;line-height:1;}
+
+.job-title{font-size:3.5em;line-height:1;}
+
+.slogan{font-size:2.33em;line-height:1;}
+
+.mockup-container{padding:10em 4em;}
+
+.proto-persona-container{padding:10em 4em;}
+
+.affinity-diagram-sorted-container{padding:10em 0;}
+
+.affinity-diagram-unsorted-container{padding:10em 0;}
+
+.sorted-cards-container{padding:10em 4em;}
+
+.unsorted-cards-container{padding:10em 4em;}
+
+.information-text{font-size:1.9em;}
+
+.secondary-heading{font-size:2.5em;margin-top:25px;}
+
+.main-footer{font-size:1.4em;}
+	
+.desktop-mockup-img{width:600px;}
+
+.mobile-mockup-img{width:355px;}
+		
+
+
+	
+	
+	
+}
+
+
+
+
+/*XXXL Styles*/
+@media (min-width:1400px){
+	
+.navbar{font-size:1.4em;}
+
+.name{font-size:5.5em;line-height:1;}
+
+.job-title{font-size:3.7em;line-height:1;}
+
+.slogan{font-size:2.49em;line-height:1;}
+
+.mockup-container{padding:10em 4em;}
+
+.proto-persona-container{padding:10em 4em;}
+
+.affinity-diagram-sorted-container{padding:10em 0;}
+
+.affinity-diagram-unsorted-container{padding:10em 0;}
+
+.sorted-cards-container{padding:10em 4em;}
+
+.unsorted-cards-container{padding:10em 4em;}
+
+.information-text{font-size:1.9em;}
+
+.secondary-heading{font-size:2.5em;margin-top:25px;}
+
+.main-footer{font-size:1.4em;}
+	
+.desktop-mockup-img{width:600px;}
+
+.mobile-mockup-img{width:355px;}
+	
+	
+
+	
+	
+	
+}
+
+
+
+
+
+/*UHD Size Styles*/
+@media (min-width:2000px){
+
+.navbar{font-size:1.4em;}
+
+.name{font-size:6.1em;line-height:1;}
+
+.job-title{font-size:4.1em;line-height:1;}
+
+.slogan{font-size:2.75em;line-height:1;}
+
+.mockup-container{padding:10em 25em;}
+
+.proto-persona-container{padding:10em 18em;}
+
+.affinity-diagram-sorted-container{padding:10em 0;}
+
+.affinity-diagram-unsorted-container{padding:10em 0;}
+
+.sorted-cards-container{padding:10em 10em;}
+
+.unsorted-cards-container{padding:10em 10em;}
+
+.information-text{font-size:2em;}
+
+.secondary-heading{font-size:3em;margin-top:25px;}
+
+.main-footer{font-size:1.4em;}
+	
+.desktop-mockup-img{width:100%;}
+
+.mobile-mockup-img{width:59%;}
+
+	
+	
+		
+	
+}
+
+
